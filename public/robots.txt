@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://somilgo.github.io/plumsteadalterations/sitemap-index.xml
