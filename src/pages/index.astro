@@ -7,7 +7,6 @@ const description =
   'Affordable, expert clothing alterations in Doylestown & Bucks County, PA. Hemming, sleeve adjustments, taking in & letting out, plus zipper and button repairs. Text for a fast, free quote.';
 
 const smsLink = `sms:${business.phoneLink}`;
-const telLink = `tel:${business.phoneLink}`;
 
 // Friendly grammatical list of the main towns for the intro copy.
 const topTowns = business.areaServed.slice(0, 4).join(', ');
@@ -47,8 +46,8 @@ const topTowns = business.areaServed.slice(0, 4).join(', ');
             <a class="btn btn-secondary" href="#services">See services</a>
           </div>
           <p style="margin-top:1rem;color:var(--ink-soft);font-size:0.95rem">
-            Texting is the fastest way to get a free quote — send a photo and a
-            quick note about what you need.
+            <strong>Text is the best way to reach us.</strong> Send a photo and a
+            quick note about what you need for a fast, free quote.
           </p>
         </div>
 
@@ -166,7 +165,6 @@ const topTowns = business.areaServed.slice(0, 4).join(', ');
           </p>
           <div class="btn-row" style="margin-top:1rem">
             <a class="btn btn-primary" href={smsLink}>Text us</a>
-            <a class="btn btn-secondary" href={telLink}>Call us</a>
           </div>
         </aside>
       </div>
@@ -220,8 +218,10 @@ const topTowns = business.areaServed.slice(0, 4).join(', ');
         </p>
         <div class="btn-row">
           <a class="btn btn-primary" href={smsLink}>📱 Text {business.phoneDisplay}</a>
-          <a class="btn btn-secondary" href={telLink}>Call {business.phoneDisplay}</a>
         </div>
+        <p style="margin-top:1rem;color:rgba(255,255,255,0.85);font-size:0.95rem">
+          Please text rather than call — it’s the fastest way to reach us.
+        </p>
       </div>
     </section>
   </main>
