@@ -121,6 +121,7 @@ section {
   border-radius: 999px;
   border: 2px solid transparent;
   cursor: pointer;
+  white-space: nowrap;
   transition: transform 0.12s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -487,6 +488,26 @@ details.faq p {
 
   .nav-links {
     display: none;
+  }
+
+  /* keep the brand + Text-us CTA on one line on phones */
+  .site-header .container {
+    gap: 0.75rem;
+  }
+
+  .brand {
+    font-size: 1.1rem;
+  }
+
+  .site-header .header-cta {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand {
+    font-size: 1rem;
   }
 }
 
