@@ -15,8 +15,8 @@ export const business = {
   tagline: 'Affordable Clothing Alterations in Doylestown & Bucks County, PA',
 
   // Phone number in two formats: one for links, one for display.
-  phoneLink: '+12674760324', // used by text/call links — keep the +1 and no spaces
-  phoneDisplay: '(267) 476-0324', // how the number appears on the page
+  phoneLink: '+12673345212', // used by text/call links — keep the +1 and no spaces
+  phoneDisplay: '(267) 334-5212', // how the number appears on the page
 
   // Service-area business run from home — we intentionally do NOT show a street
   // address. We only name the town/region for trust + local SEO.
